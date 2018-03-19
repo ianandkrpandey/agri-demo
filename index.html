@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="app.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    </head>
+<body>
+
+<div class="icon-bar">
+  <a class="active" href="index.html" onclick="openNav()"><i class="fa fa-home" ></i></a> 
+  <a href="#"><i class="fa fa-whatsapp"></i></a> 
+  <a href="#"><i class="fa fa-globe"></i></a>
+  <a href="#"><i class="fa fa-bar-chart"></i></a> 
+  <a href="#" onclick="openSearch()"><i class="fa fa-search"></i></a> 
+
+</div>
+<div id="myNav" class="overlay">
+        <a  href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Clients</a>
+          <a href="#">Teams</a>
+          <a href="#">Contact</a>
+        </div>
+</div>
+      <div class="container">
+        <br><br><br>
+        
+            
+              <div class="w3-panel w3-card-4 "><i class="fa fa-shopping-cart" style="font-size:48px;color:green"></i><h2>Create Order</h2></div>
+            
+            <a href="invoice.html">    
+              <div class="w3-panel w3-card-4"><i class="fa fa-copy" style="font-size:48px;color:green"></i>   <h2>Create Invoice</h2></div></a>
+            
+        <!---->
+            <div class="row">
+                <div class="column" style="background-color:#00000;">
+              <div class="w3-panel w3-card-4"><i class="fa fa-cubes" style="font-size:48px;color:green"></i><p><h4>Open Order<h4></p></div></div>
+              <div class="column" style="background-color:#00000;">
+              <div class="w3-panel w3-card-4"><i class="fa fa-shopping-bag" style="font-size:48px;color:green"></i><p><h4>WIP Order</h4></p></div></div>
+            
+              </div>
+    </div>
+           
+<script src="app.js"></script>
+<div class="footer">
+      <h1><i class="fa fa-cogs" style="font-size:48px;color:white"></i>  <p>MENU</P></h1>
+      </div>
+</body>
+</html> 

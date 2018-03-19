@@ -1,0 +1,24 @@
+{
+
+"Customer1": {
+    "firstname": "anand",
+    "email": "anand@gmail.com",
+    "phone": 9035843262
+},
+"Customer2": {
+    "firstname": "amit",
+    "email": "amit@gmail.com",
+    "phone": 1234567890
+},
+"Customer3": {
+    "firstname": "praveen",
+    "email": "praveen@gmail.com",
+    "phone": 1234567890
+},
+"Customer4": {
+    "firstname": "ashish",
+    "email": "ashish@gmail.com",
+    "phone": 1234567890
+}
+
+}
